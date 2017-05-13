@@ -76,3 +76,9 @@ Try It Out!
 [Complete the prework assignment.](http://www.primeacademy.io/student/assignments)
 
 Also, contrary to popular belief, DevTools was not named after me.
+
+Tried It Out!
+=============
+Saw that the error being thrown by the console was that "showGlobal is not defined," and that this was being called by the startMeUp function onload.
+I recognized that the function that startMeUp was trying to call was likely the showGlobals function defined earlier, minus an "s" at the end.
+I made the appropriate correction to the startMeUp function, saved, refreshed the browser, and there were no longer any errors.
